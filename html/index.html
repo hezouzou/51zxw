@@ -18,6 +18,9 @@
         .font_footer{
             font-size:0.6rem;
         }
+        .breadcrumb-item + .breadcrumb-item::before{
+            content:">>"
+        }
     </style>
 </head>
 <body>
@@ -59,27 +62,19 @@
         <div>
             <div class="w-100 d-flex justify-content-between">
                 <h3>热门推荐</h3>
-                <a href="#" class="mt-1">更多</a>
+                <a href="#" class="mt-1">查看更多</a>
             </div>
             <ul class="row list-unstyled">
                 <li class="col-md-3 col-sm-6">
                     <a href="#">
                         <img src="../img/index/676.jpg" alt="" class="w-100"/>
                         <p class="text-center d-block mt-3">PPT2016基础视频教程</p>
-                        <div class="d-flex justify-content-between">
-                            <span>共309小节</span>
-                            <span>已有3259586人学过</span>
-                        </div>
                     </a>
                 </li>
                 <li class="col-md-3 col-sm-6">
                     <a href="#">
                         <img src="../img/index/679.jpg" alt="" class="w-100"/>
                         <p class="text-center d-block mt-3">3D2018室内设计入门教程</p>
-                        <div class="d-flex justify-content-between">
-                            <span>共309小节</span>
-                            <span>已有3259586人学过</span>
-                        </div>
                     </a>
                 </li>
                 <li class="col-md-3 col-sm-6">
@@ -105,10 +100,6 @@
                     <a href="#">
                         <img src="../img/index/718.jpg" alt="" class="w-100"/>
                         <p class="text-center d-block mt-3">UI设计图标案例实战教程</p>
-                        <div class="d-flex justify-content-between">
-                            <span>共309小节</span>
-                            <span>已有3259586人学过</span>
-                        </div>
                     </a>
                 </li>
                 <li class="col-md-3 col-sm-6">
@@ -139,10 +130,6 @@
                     <a href="#">
                         <img src="../img/index/631.jpg" alt="" class="w-100"/>
                         <p class="text-center d-block mt-3">word2016基础视频教程</p>
-                        <div class="d-flex justify-content-between">
-                            <span>共309小节</span>
-                            <span>已有3259586人学过</span>
-                        </div>
                     </a>
                 </li>
                 <li class="col-md-3 col-sm-6">
@@ -164,7 +151,7 @@
                     </a>
                 </li>
             </ul>
-            <div class="w-100 d-flex justify-content-between">
+            <div class="d-flex justify-content-between">
                 <h3>进阶课程</h3>
                 <a href="#" class="mt-1">更多</a>
             </div>
@@ -173,10 +160,6 @@
                     <a href="#">
                         <img src="../img/index/663.jpg" alt="" class="w-100"/>
                         <p class="text-center d-block mt-3">CorelDRAW X8视频教程</p>
-                        <div class="d-flex justify-content-between">
-                            <span>共309小节</span>
-                            <span>已有3259586人学过</span>
-                        </div>
                     </a>
                 </li>
                 <li class="col-md-3 col-sm-6">
@@ -204,26 +187,85 @@
             </div>
             <ul class="row list-unstyled">
                 <li class="col-md-3 col-sm-6">
-                    <a href="#"><img src="../img/index/691.jpg" alt="" class="w-100"/></a>
-                    <p class="text-center d-block mt-3">UG12曲面造型设计教程</p>
-                    <div class="d-flex justify-content-between">
-                        <span>共309小节</span>
-                        <span>已有3259586人学过</span>
-                    </div>
+                    <a href="#">
+                        <img src="../img/index/615.jpg" alt="" class="w-100"/>
+                        <p class="text-center d-block mt-3">自动化测试教程</p>
+                        <div class="d-flex justify-content-between">
+                            <span>共309小节</span>
+                            <span>已有3259586人学过</span>
+                        </div>
+                    </a>
                 </li>
                 <li class="col-md-3 col-sm-6">
-                    <a href="#"><img src="../img/index/691.jpg" alt="" class="w-100"/></a>
-                    <p class="text-center d-block mt-3">UG12曲面造型设计教程</p>
+                    <a href="#">
+                        <img src="../img/index/656.jpg" alt="" class="w-100"/>
+                        <p class="text-center d-block mt-3">手机网页原生代码开发教程</p>
+                    </a>
                 </li>
                 <li class="col-md-3 col-sm-6">
-                    <a href="#"><img src="../img/index/691.jpg" alt="" class="w-100"/></a>
-                    <p class="text-center d-block mt-3">UG12曲面造型设计教程</p>
+                    <a href="#">
+                        <img src="../img/index/701.jpg" alt="" class="w-100"/>
+                        <p class="text-center d-block mt-3">营改增酒店餐饮企业会计实操</p>
+                    </a>
                 </li>
                 <li class="col-md-3 col-sm-6">
-                    <a href="#"><img src="../img/index/691.jpg" alt="" class="w-100"/></a>
-                    <p class="text-center d-block mt-3">UG12曲面造型设计教程</p>
+                    <a href="#">
+                        <img src="../img/index/610.jpg" alt="" class="w-100"/>
+                        <p class="text-center d-block mt-3">BI入门课程</p>
+                    </a>
                 </li>
             </ul>
+            <div class="card d-md-flex d-sm-none">
+                <div class="card-header d-flex justify-content-between">
+                    <p class="m-0">友情链接</p>
+                    <ul class="breadcrumb m-0 p-0">
+                        <li class="breadcrumb-item"><a href="#">更多</a></li>
+                        <li class="breadcrumb-item"><a href="#">加入链接</a></li>
+                    </ul>
+                </div>
+                <div class="card-body text-center p-0 p-3">
+                    <a href="http://www.hao123.com/xuexi"><img src="../img/index/hao123_88_31.gif" alt=""/></a>
+                    <a href="http://hao.360.cn/diannaowangluo.html"><img src="../img/index/360.png" alt=""/></a>
+                    <a href="http://tech.163.com/School/"><img src="../img/index/school_logo.png" alt=""/></a>
+                    <a href="#"><img src="../img/index/baidu_51.jpg" alt=""/></a>
+                    <a href="#"><img src="../img/index/rising_51.jpg" alt=""/></a>
+                    <a href="#"><img src="../img/index/haoqq_51.jpg" alt=""/></a>
+                    <a href="#"><img src="../img/index/sogou_51.jpg" alt=""/></a>
+                    <div>
+                        <a class="m-2 font_footer" href="http://www.bigear.cn">大耳朵英语</a>
+                        <a class="m-2 font_footer" href="https://www.shangxueba.com/">上学吧</a>
+                        <a class="m-2 font_footer" href="https://www.3d66.com/">3D模型</a>
+                        <a class="m-2 font_footer" href="http://www.a963.com/">中华室内设计网</a>
+                        <a class="m-2 font_footer" href="http://www.examw.com/">中华考试网</a>
+                        <a class="m-2 font_footer" href="http://www.oh100.com/">百分比网</a>
+                        <a class="m-2 font_footer" href="https://ke.qq.com/">腾讯课堂</a>
+                        <a class="m-2 font_footer" href="http://www.xz7.com/">河源下载网</a>
+                        <a class="m-2 font_footer" href="http://www.reader8.cn/">读书人</a>
+                        <a class="m-2 font_footer" href="https://www.admin5.com/">站长网</a>
+                        <a class="m-2 font_footer" href="http://www.chinakaoyan.com/">考研网</a>
+                        <a class="m-2 font_footer" href="http://www.missyuan.com/">思源设计论坛</a>
+                        <a class="m-2 font_footer" href="http://www.ddooo.com/">多多软件站</a>
+                        <a class="m-2 font_footer" href="http://www.offcn.com/">中公教育</a>
+                    </div>
+                    <div>
+                        <a href="http://www.uimaker.com/" class="m-2 font_footer">UI制作者</a>
+                        <a href="http://www.huatu.com/" class="m-2 font_footer">华图教育</a>
+                        <a href="http://www.64365.com/" class="m-2 font_footer">律师365</a>
+                        <a href="http://www.oh100.com/" class="m-2 font_footer">高分网</a>
+                        <a href="http://www.1010jiajiao.com/" class="m-2 font_footer">精英家教网</a>
+                        <a href="http://www.manmankan.com/" class="m-2 font_footer">漫漫看漫画</a>
+                        <a href="http://edu.2345.com/" class="m-2 font_footer">2345导航</a>
+                        <a href="http://www.flvcd.com/" class="m-2 font_footer">FLVCD</a>
+                        <a href="http://www.codefans.net/" class="m-2 font_footer">源码爱好者</a>
+                        <a href="http://www.xuexila.com/" class="m-2 font_footer">学习啦</a>
+                        <a href="http://www.xuexifangfa.com/" class="m-2 font_footer">学习方法</a>
+                        <a href="http://www.icpcw.com/" class="m-2 font_footer">电脑报在线</a>
+                        <a href="http://www.smzy.com/" class="m-2 font_footer">数码资源网</a>
+                        <a href="https://www.w3cschool.cn/" class="m-2 font_footer">W3Cschool</a>
+                        <a href="http://ishare.iask.sina.com.cn/" class="m-2 font_footer">新浪爱问分享</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer>
             <div class="text-center">
