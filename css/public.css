@@ -1,0 +1,6 @@
+.font_footer{
+    font-size:0.6rem;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content:">>"
+}
