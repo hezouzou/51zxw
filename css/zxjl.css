@@ -46,18 +46,20 @@ a,a:hover{
 .con-warp{
     width:1260px;
     height:500px;
-    background:#66a3d1;
     margin: 0 auto;
     margin-top:20px;
     position: relative;
+    box-shadow: 10px 10px #888888;
+    border-radius: 15px;
 }
 .con-warp .sid-nav-all{
     width:225px;
     height:100%;
     position: absolute;
     display: inline-block;
+   
 }
-.sid-nav{
+.sid-nav,.con-warp1 .mat,.con-warp .ent ul{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -65,18 +67,29 @@ a,a:hover{
 .sid-nav li{
     padding-left: 40px;
    color: #fff;
-   height:48px;
-   border: 1px solid #000;
+   height:49px; 
    line-height: 50px;
-   background:#e1a2a3
+   background:#e1a2a3;
+   border-top:1px solid #000;
+}
+.sid-nav li:first-child{
+    height:50px; 
+    border:0px;
+}
+.sid-nav li:first-child{
+    border-top-left-radius: 15px;
+}
+.sid-nav li:last-child{
+    border-bottom-left-radius: 15px;
 }
 .sid-nav li:hover{
-    background:#66a3d1;
+    background:#fff;
+    color:#000;
 }
 .con-warp .filter{
     width:830px;
     height:500px;
-    background:#e1a2a3;
+    background:#fff;
     position: absolute;
     left:225px;
     z-index: 100;
@@ -88,27 +101,141 @@ a,a:hover{
 }
 .course-list{
     display:flex;
+    height:40px;
 }
 .course-list p{
     margin: 0;
-    width: 80px;
+    width: 100px;
     height:30px;
     margin:10px 30px;
     line-height: 30px;
     border-radius:15px;
     background:#000;
-    text-align: center
+    text-align: center;
+    color:#fff;
 }
 .c-1{
     width: 750px;
     height:50px;
-    background:#000;
 }
 .sid-nav .c-1 a{
     display: inline-block;
-    width: 80px;
-    background:#fff;
     height: 22px;
     line-height: 22px;
-    margin-right: 15px;
+    margin-right: 10px;
+}
+.con-warp .banner{
+    width:1035px;
+    height:400px;
+    background:#000;
+    position: absolute;
+    top:0;
+    left:225px;
+    border-top-right-radius: 15px;
+}
+.con-warp .ent{
+    position: absolute;
+    width:1035px;
+    height:100px;
+    left:225px;
+    top:400px;
+    background: #cacaca;
+    border-bottom-right-radius: 15px;  
+}
+.con-warp .ent ul{
+    display: flex;
+}
+.con-warp .ent li{
+    width: 258px;
+    height:100px;
+}
+.con-warp .ent li:last-child{
+    border-bottom-right-radius: 15px;  
+}
+.con-warp .ent li a{
+    width:200px;
+    height:80px;
+    display: block;
+    margin:0 auto;
+    margin-top:10px;
+    background: #fff 
+}
+.con-warp1,.con-warp2{
+    width:100%;
+    height:100%;
+}
+.con-warp1 .list,.con-warp2 .blo{
+    width:1260px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.con-warp1 .title{
+    padding: 20px 0px;
+}
+.con-warp1 .title span{
+    font-size:30px;
+    font-weight: 700;
+}
+.con-warp1 .title a{
+    font-size: 14px;
+    float: right;
+}
+.mat{
+    display: flex;
+    justify-content:space-between;
+}
+.mat li{
+    background: #66a3d1;
+    position: relative;
+    top:0;
+    transition:0.3s;
+    border-radius:5px;
+}
+.mat li:hover{
+    top:-5px;
+    box-shadow:10px 10px 5px #888888;  
+}
+.mat a{
+    width: 240px;
+    height:260px;
+    display: block;
+}
+.mat img{
+    width:100%;
+    border-radius:5px; 
+}
+.mat p{
+    padding:0px;
+    margin: 10px auto;
+    width:220px;
+    text-align: center;
+}
+.blo .title{
+    height:30px;
+    line-height: 30px;
+    background: #66a3d1;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.blo span{
+    margin: 0 20px;
+}
+.c2{
+    width: 1260px;
+    height:80px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    background: #fff;
+    margin-top:15px;
+    margin-bottom:15px;  
+}
+.c2 .font_footer{
+    font-size: 14px;
+    color: #000;
+}
+
+.c2 a{
+    margin: 5px;
 }
