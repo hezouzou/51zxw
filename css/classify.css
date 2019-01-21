@@ -1,0 +1,140 @@
+.container .top-nav{
+    min-width: 1260px;
+    background: #66a3d1;
+}
+.container .top-nav-all,.footer .footer-nav{
+    width:1260px;
+    height:80px;
+    line-height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+.top-nav-left a:first-child{
+    color:#66a3d1;
+}
+.container  .top-nav-left{
+    width:600px;
+    height:80px;
+    margin-top: 15px;
+    display:inline-block;
+}
+.top-nav-left .logo,.top-nav-left a img{
+    width:220px;
+    height:50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-nav-left .login,.top-nav-left span{
+   position: relative;
+   top:-20px;
+}
+.top-nav-right{
+    position: absolute;
+    right:0;
+    display:inline-block;
+}
+.container .top-nav-img,.container .body-nav{
+    width:1260px;
+    margin: 6px auto;
+    height:200px;
+}
+.container .body-nav{
+    height:100px;
+    background:#f4f4f4;
+    border:1px solid #ccc;
+}
+.body-nav::before{
+    content:"";
+    display: block;
+}
+.body-nav .content{
+    height:50px;
+}
+.content::before{
+    content:"";
+    display: block;
+}
+.content a:first-child{
+    width:80px;
+    height: 30px;
+    background: #fff;
+    display: inline-block;
+    line-height: 30px;
+    margin: 10px 10px 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+.content a{
+   color: #666666;
+   padding:5px 10px;
+}
+.content .active{
+    background:#157bdb;
+    border-radius: 8px;
+    color: #fff;
+}
+.con-warp1::before{
+    content:"";
+    display: table;
+}
+.con-warp1 .mat{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 60px 0;
+    display: flex;
+    justify-content:space-between;
+}
+.con-warp1{
+    width:1260px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.mat li{
+    background: #66a3d1;
+    position: relative;
+    top:0;
+    transition:0.3s;
+    border-radius:5px;
+}
+.mat li:hover{
+    top:-5px;
+    box-shadow:10px 10px 5px #888888;  
+}
+.mat a{
+    width: 240px;
+    height:260px;
+    display: block;
+}
+.mat img{
+    width:100%;
+    border-radius:5px; 
+}
+.mat p{
+    padding:0px;
+    margin: 10px auto;
+    width:220px;
+    text-align: center;
+}
+.footer{
+    background:#888888;
+}
+.footer::before{
+    content: "";
+    display: table;
+}
+.footer .footer-nav{
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+}
+.footer-nav:first-child{
+    margin-top:20px;
+}
+.footer-nav:last-child{
+    padding-bottom: 20px;
+}
+.font_footer{
+    font-size: 14px;
+    color: #000;
+}
