@@ -46,3 +46,115 @@
     background: url(../img/index/home2.png) no-repeat 10px;
     width:100%;
 }
+.shopImage{
+    background:#ece8dd;
+}
+.shopImage div{
+    width: 1260px;
+    height:100%;
+    margin: 0 auto;
+}
+.shopImage img{
+    width: 100%;
+}
+.goodsArea{
+    width: 1260px;
+    margin:0 auto;
+    margin-top:20px;
+    background: #005bc6;
+    zoom: 1;
+}
+.goodsArea::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.goodsArea .goodsArea-left{
+    width: 200px;
+    height:100%;
+    background: #b5feb5;
+    float: left;
+}
+.goodsArea .goodsArea-right{
+    width:1040px;
+    height:100%;
+    background: #b5feb5;
+    float: right;
+}
+.goodsArea-right h3{
+    margin: 0;
+}
+.courseList{
+    width: 980px;
+    height: 100%;
+    margin:0 auto;
+    background: #cafeca; 
+}
+.courseList::before{
+    content:"";
+    display: table;
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.courseList h1{
+    margin: 0;
+}
+.list .list-item{
+    width:172px;
+    height:167px;
+    background: darkmagenta;
+}
+.list .list-item img{
+    width: 100%;
+    height:95px;
+}
+.list-item p{
+    margin: 0;
+    padding: 5px;;
+}
+.footer{
+    width:100%;
+    text-align: center;
+    background: rgb(230, 14, 14);
+    margin-top:20px;
+}
+.footer>div{
+    width: 1260px;
+    margin:0 auto; 
+}
+.footer div{
+    font-size: 10px;
+    color:#999;
+}
+.footer::before{
+    content: "";
+    display:table;
+}
+.footer-nav{
+    margin-top:35px;  
+}
+.footer-nav a{
+    font-size: 13px;
+    padding:05px 15px;
+    color:#fff;
+    background: #7b7b7b;
+    border-radius:8px; 
+    margin-right:10px; 
+}
+.footer-nav::before{
+    content: "";
+    display:table;
+}
+.footer-nav a:hover{
+    background: rgb(69, 133, 192);
+    color:#fff;
+}
+.footer-cha{
+    margin-top: 10px;
+}
