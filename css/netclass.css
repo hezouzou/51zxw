@@ -1,0 +1,162 @@
+ body{
+    margin: 0;
+    padding:0;
+    background:#3d3b3bfd;
+}
+a,a:hover{
+    text-decoration:none;
+    COLOR: #afafaf;
+}
+header .Hbar_j{
+    width:1260px;
+    height:9px;
+    background:#181818;
+    margin:0 auto;
+}
+header .header{
+    width:1260px;
+    height:156px;
+    margin:0 auto;
+}
+header .header img{
+    width:100%;
+    height:100%;
+}
+.mainWrap{
+    width:1260px;
+    margin: 0 auto;
+    background:url(../img/netclass/tabX1.gif)
+}
+.mainWrap .boxWp{
+    border-bottom:1px solid #000;
+    border-top:0;
+    width:100%;
+    overflow: hidden;
+}
+.mainWrap .bWp9{
+    background:#252525;
+}
+.mainWrap .tab_j{
+    min-height:30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #302f2f;
+}
+.mainWrap .TabL,.mainWrap .TabR{
+    margin-left:15px;
+    margin-right: 15px;
+    color:#afafaf;
+    font-size:15px;
+}
+.mainWrap .TabL::before{
+    content:"你的位置：";
+    display:inline-block;
+}
+.mainWrap .TabL a,.mainWrap .TabR a{
+    color:#afafaf;
+}
+.mainWrap .telinfo{
+    background: url(../img/netclass/icon_toptel.gif) repeat-x 0px -100px;
+    border:1px solid #c40606;
+    height:25px;
+    margin:5px 0;
+}
+.mainWrap .telinfo p{
+    background: url(../img/netclass/icon_toptel.gif) no-repeat 10px 1px;
+    padding-left: 50px;
+    line-height: 25px;
+    font-size: 13px;
+    color:#aaa;
+    float: left;
+}
+.mainWrap .telinfo p a{
+    color:#fff;
+    background:#093;
+    margin-left:200px;
+}
+.mainWrap .telinfo ul{
+    list-style: none;
+    padding:0;
+    float: right;
+    margin: 0;
+    display: flex;
+    font-size:13px;
+    line-height: 25px;
+    width:500px;
+}
+.mainWrap .telinfo li{
+    float: left;
+    margin-left: 40px;
+    color:#fff;
+}
+.mainWrap .telinfo li a{
+    color:#fff;
+    BACKGROUND: url(../img/netclass/icon_toptel.gif) no-repeat -20px -45px;
+    padding-left: 15px;
+}
+.list{
+    clear: both;
+}
+.list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-wrap: wrap;
+}
+.list li{
+    width:418px;
+    height:280px;
+    border: #fff 1px solid;
+    background: url(../img/netclass/office.jpg) no-repeat;
+    background-size:100% 100%;
+    
+}
+.list li img{
+    width:100%;
+    height:100%;
+}
+.bWp6{
+    background:#252525;
+}
+.bWp6 h1{
+    margin: 0px;
+    padding:0 10px;
+    height:27px;
+    font-size: 14px;
+    line-height: 27px;
+    border-bottom: 1px solid #302f2f
+} 
+.ullist6{
+    padding: 10px;
+}
+.ullist6 ul{
+    list-style: none;
+    margin: 0px;
+    padding:0 0 0 120px;
+    display: flex;
+    color:#fff;
+}
+.ullist6 ul li{
+    width:210px;
+}
+.ullist6 ul li a{
+    font-size: 11px;
+}
+.footer{
+    padding:10px 0px;
+    BACKGROUND: url(../img/netclass/linebg2.gif) #1a1a1a repeat-x;
+    text-align: end;
+    font-size: 14px;
+}
+.footer p{
+    margin: 0px 20px; 
+    font-size: 11px;
+    COLOR: #afafaf;
+
+}
+.footer p span{
+    position: relative;
+    top:-10px;
+}
